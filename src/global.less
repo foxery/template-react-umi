@@ -1,0 +1,55 @@
+@import 'assets/less/variable.module.less';
+
+body,
+html {
+  padding: 0;
+  margin: 0;
+  color: @textColor;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.align-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clearfix {
+  &:before,
+  &:after {
+    display: table;
+    content: '';
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.txt-c {
+  text-align: center;
+}
+
+.txt-r {
+  text-align: right;
+}
+
+// 布局
+.container-content {
+  width: @containerWidth;
+  margin: auto;
+}
