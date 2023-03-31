@@ -1,0 +1,28 @@
+.chat-content {
+  height: 500px;
+  overflow: auto;
+  padding: 12px;
+}
+
+.msg-spacing {
+  + .msg-spacing {
+    margin-top: 12px;
+  }
+}
+
+.msg-box {
+  background-color: #d8dee4;
+  padding: 6px;
+  border-radius: 6px;
+  max-width: 100%;
+  display: inline-block;
+
+  &.in {
+    border-top-left-radius: 0;
+    background-color: #b9ceec;
+  }
+
+  &.out {
+    border-top-right-radius: 0;
+  }
+}
