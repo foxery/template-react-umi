@@ -1,0 +1,26 @@
+tmp.txt
+.*.swp
+._*
+.DS_Store
+.hg
+.lock-wscript
+.wafpickle-*
+CVS
+npm-debug.log
+*.log
+lib-cov
+coverage
+node_modules
+.lock-wscript
+tep/*
+.idea
+npm-debug.log
+dist
+site
+.nyc_output
+docs/_book
+
+.vscode
+
+# gui ignore
+build
